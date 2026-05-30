@@ -274,6 +274,12 @@
       <chooseType>true</chooseType>
       <typeDomainEnabled>true</typeDomainEnabled>
       <textEdit>true</textEdit>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <datapath xsi:type="form:DataPath">
+          <segments>Объект.Контрагент</segments>
+        </datapath>
+      </choiceParameterLinks>
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
@@ -485,7 +491,7 @@
     </title>
     <id>2</id>
     <valueType>
-      <types>CatalogRef.ДЗ_КонтактныеЛица</types>
+      <types>CatalogRef.Контрагент</types>
     </valueType>
     <view>
       <common>true</common>
